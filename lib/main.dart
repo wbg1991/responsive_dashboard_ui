@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:responsive_dashboard_ui/reponsive/desktop_scaffold.dart';
-import 'package:responsive_dashboard_ui/reponsive/mobile_scaffold.dart';
-import 'package:responsive_dashboard_ui/reponsive/responsive_layout.dart';
-import 'package:responsive_dashboard_ui/reponsive/tablet_scaffold.dart';
+import 'package:responsive_dashboard_ui/responsive/desktop_scaffold.dart';
+import 'package:responsive_dashboard_ui/responsive/mobile_scaffold.dart';
+import 'package:responsive_dashboard_ui/responsive/responsive_layout.dart';
+import 'package:responsive_dashboard_ui/responsive/tablet_scaffold.dart';
 
 void main() {
   runApp(const MyApp());

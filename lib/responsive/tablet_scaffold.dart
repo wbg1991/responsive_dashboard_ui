@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:responsive_dashboard_ui/constants.dart';
 
 class TabletScaffold extends StatefulWidget {
   const TabletScaffold({super.key});
@@ -11,7 +12,9 @@ class _TabletScaffoldState extends State<TabletScaffold> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.blue,
+      backgroundColor: myDefaultBackground,
+      appBar: myAppBar,
+      drawer: myDrawer,
     );
   }
 }
