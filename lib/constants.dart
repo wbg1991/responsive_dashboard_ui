@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 var myDefaultBackground = Colors.grey[300];
 
 var myAppBar = AppBar(
+  foregroundColor: Colors.white,
   backgroundColor: Colors.grey[900],
 );
 
